@@ -1,0 +1,2377 @@
+body  {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    box-sizing: border-box;
+    
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+
+
+
+    #nav {
+        height: 10vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        border-color: 1px solid black;
+        display: flex;
+        align-content: space-between;
+        position: fixed;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    #call-text {
+        height: 100%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        letter-spacing: 4px;
+        font-weight: 400;
+        font-size: .5em;
+        padding-right: 30px;
+    
+    }
+
+    #hide {
+        display: none;
+    }
+    
+    #logo{
+        height: 100%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 30px;
+    }
+    #main-hero {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        background-image: url(assets/smallest-possible-bg.jpg);
+        background-size: cover;
+        padding-top: 10vh;
+        flex-wrap: wrap;
+    }
+    
+    .left-column {
+        height:100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 0px;
+        align-content: space-between;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+    }
+    
+    .right-column {
+        height:100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        align-content: space-between;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        
+        
+    
+    }
+    
+    .yellow {
+        color: #ECBE13;
+    }
+    
+    #align-main {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 25px 25px 25px 25px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .button-collector {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        gap: 25px;
+    }
+    
+    .contactUs-Button {
+        background-color: #ECBE13;
+        color: #1E232B;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    
+    }
+    
+    
+    .phone-cta {
+        background-color: #ECBE13;
+        color: #1E232B;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    
+    }
+    
+    .form-container {
+        height: 80%;
+        width: 80%;
+        background-color: white;
+        border-top: 10px solid #ECBE13;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        color: #1E232B;
+        
+    }
+    
+    
+    .form-container h2 {
+        font-weight: 400;
+        color: #1E232B;
+        font-family: 'Poppins', sans-serif;
+        font-size: 3em;
+        text-align: center;
+    
+    
+    }
+    
+    #hero-form {
+        display: inline-block;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        align-content: space-around;
+        flex-direction: column;
+        font-size: .8em;
+        color: black;
+        height: 80%;
+        width: 80%;
+        
+    }
+    
+    #hero-form label {
+        display: inline-block;
+        width: 100%;
+        
+    
+    }
+    
+    #hero-Form input {
+        display: inline-block;
+        width: 80%;
+        text-align: left;
+        height: 20%;
+      
+        
+    }
+    
+    .inputLabel {
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 50px;
+        margin-top: 0px;
+        cursor: pointer;
+        width: 80%;
+        display: inline-block;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    textarea {
+        resize: none;
+        height: 20%;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    
+    #submitFormButton {
+        height: 50px;
+        width: 150px;
+        padding: 5px 5px 5px 5px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #1E232B;
+        background: linear-gradient(135deg, #f4c92d 0%, #ECBE13 100%);
+        border-radius: 5px;
+        border: 0px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-bottom: 50px;
+        font-family: 'Poppins', sans-serif;
+        
+        
+    }
+    
+    #make-them-pay {
+        height: 70vh;
+        width: 100%;
+        background-image: url(assets/stylo-bg-re-color.jpg);
+        background-size: cover;
+        background-position: 10% 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    
+    #hurt-you {
+        height: 70vh;
+        width: 100%;
+        background-image: url(assets/protect_bg.png);
+        background-size: cover;
+        background-position: 10% 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 2em;
+        line-height: 0px;
+        text-align: center;
+    }
+    
+    #we-are-going{
+        font-size: 4em;
+        line-height: 1em;
+        text-align: center;
+    }
+    
+    #pay-you{
+        font-size: 4em;
+        line-height: 0px;
+    }
+    
+    #About {
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        background-color: #161c27;
+    
+    }
+    
+    .lady-pics {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        
+        
+    
+    }
+
+    .lady-pics img {
+        height: 100%;
+        width: 100%;
+        
+        
+    
+    }
+    
+    .left-column-about {
+        height:100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.7em;
+    
+    
+    }
+    
+    #align-main-about {
+        width: 70%;
+        height: 80%;
+        line-height: 1.8em;
+       
+    }
+    
+    #about-right{
+        width: 30%;
+        height: 100%;
+        display: flex;
+    }
+    
+    #practice-areas {
+        height: 20vh;
+        width: 100%;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #161C27;
+        align-content: space-between;
+        gap: 0px;
+        margin: 0px;
+        line-height: 0px;
+        font-size: 1.5em;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #practice-cards {
+        height: 60vh;
+        width: 100%;
+        background-color: #161C27;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+    
+    .row {
+        height: 50%;
+        width: 100%;
+        display: flex;
+    }
+    
+    .align {
+        width: 100%;
+        height: 100%;
+      
+    }
+    
+    .practice-card {
+        height: 100%;
+        width: 20%;
+        filter: grayscale(100%);
+        position: relative;
+    }
+    
+    .overlay {
+        position: absolute;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+    }
+    
+    #divorce {
+        background-image: url(assets/divorce.png);
+        background-size: cover;
+        background-position: 80%;
+        
+    }
+    
+    #alimony {
+        background-image: url(assets/alimony-support.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    #child {
+        background-image: url(assets/child-custody.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    #childsupport {
+        background-image: url(assets/child-support.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    #custody-orders {
+        background-image: url(assets/modification-of-custody.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    
+    #child-visitation {
+        background-image: url(assets/child-visitation.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #seperate-property {
+        background-image: url(assets/seperate-property-valuation.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #business-valuation {
+        background-image: url(assets/business\ valuations.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #nuptial {
+        background-image: url(assets/nuptual-agreements.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #paternity {
+        background-image: url(assets/paternity.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    
+    
+    }
+    
+    .label {
+        position: absolute;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+        top: 70%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+        font-weight: 400;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        z-index: 11;
+    
+    }
+    
+    #reviews {
+     
+        background-color: #151b27;
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        padding-bottom: 100px;
+        padding-top: 50px;
+    
+    }
+    
+    #reviews-left {
+        display: flex;
+        height: 100%;
+        width: 40%;
+      
+    }
+    
+    #reviews-right {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.7em;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        height: 100%;
+        gap: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #review-1 {
+        width: 100%;
+        padding: 25px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+    }
+    
+    #slider-arrows {
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        flex-direction: row;
+        height:auto;
+        width: 100%;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    #meet-our-team {
+        height: auto;
+        width: 100%;
+        background-color: #151b27;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 150px;
+        
+    }
+    
+    .align-meet {
+        height: 100%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    
+    }
+    
+    #meet-our-team-row{
+        display: flex;
+        gap: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .people-card {
+        height: auto;
+        width: 30%;
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        font-weight: 100;
+        position: relative;
+    
+    }
+    
+    .people-card img {
+        height: 100%;
+        width: 100%;
+    
+    }
+    
+    .attorney-name {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 90%;
+        height: 100px;
+        font-weight: 100;
+    }
+    
+    .attorney-actual-name {
+        width: 80%;
+        background-color: #1E232B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        line-height: 0px;
+        margin: 0px;
+        
+        
+    }
+    
+    #footer {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        position: relative;
+        
+    
+    }
+    
+    #footer img {
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        position: absolute;
+    }
+    
+    #footer-upper {
+        height:50%;
+        width: 100%;
+        display: flex;
+        z-index: 11;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        letter-spacing: 15px;
+        line-height: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+        background-color: rgba(0, 0, 0, 0.3);
+        
+       
+    }
+    
+    #footer-upper p {
+        letter-spacing: 7px;
+        
+       
+    }
+    
+    
+    #footer-spacer {
+        height: 80%;
+        width: 4px;
+        background-color:#ECBE13
+    }
+    
+    #footer-lower {
+        height:50%;
+        width: 100%;
+        display: flex;
+        z-index: 11;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        letter-spacing: 15px;
+        background-color: rgba(0, 0, 0, 0.3);
+      
+    
+    }
+    
+    #footer-contact {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    #footer-form-form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 80%;
+        gap: 10px;
+        align-items: start;
+        justify-content: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        line-height: 0px;
+        margin: 0px;
+    
+    }
+    #footer-form-form label {
+        display: none;
+    
+    }
+    
+    .footer-form-input {
+        width: 45%;
+        height: 20%;
+        background-color: rgba(0, 0, 0, 0);
+        border-bottom: 1px solid white;
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+        border-top: 0px solid white;
+        display: flex;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+
+
+    
+    
+    #footer-form-form ::-webkit-input-placeholder {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    textarea {
+        resize: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        width: 100%;
+    
+    }
+    
+    .footer-form-input-long {
+        width: 90%;
+        height: 20%;
+        background-color: rgba(0, 0, 0, 0);
+        border-bottom: 1px solid white;
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+        border-top: 0px solid white;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+    
+    }
+    
+    #footer-submit {
+        width: 200px;
+        height: 50px;
+        display: block;
+        background: linear-gradient(135deg, #f4c92d 0%, #ECBE13 100%);
+        border-radius: 5px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+        
+    }
+    
+    #submit-collect{
+        width: 90%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+
+
+    
+   
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 601px) and (max-width: 1400px) {
+    #nav {
+        height: 10vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        border-color: 1px solid black;
+        display: flex;
+        align-content: space-between;
+        position: fixed;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    #call-text {
+        height: 100%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        letter-spacing: 4px;
+        font-weight: 400;
+        font-size: 1.5em;
+        padding-right: 30px;
+    
+    }
+    
+    #logo{
+        height: 100%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 30px;
+    }
+
+    #logo img {
+        height: 80%;
+        width: auto;
+    }
+    #main-hero {
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        background-image: url(assets/smallest-possible-bg.jpg);
+        background-size: cover;
+        padding-top: 10vh;
+    }
+    
+    .left-column {
+        height:100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 0px;
+        align-content: space-between;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+    }
+    
+    .right-column {
+        height:100%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        font-family: 'Poppins', sans-serif;
+        
+    
+    }
+    
+    .yellow {
+        color: #ECBE13;
+    }
+    
+    #align-main {
+        width: 95%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 25px 25px 25px 25px;
+        align-items: center;
+        justify-content: center;
+        font-size: .8em;
+    }
+    
+    .button-collector {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        gap: 25px;
+    }
+    
+    .contactUs-Button {
+        background-color: #ECBE13;
+        color: #1E232B;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    
+    }
+    
+    
+    .phone-cta {
+        background-color: #ECBE13;
+        color: #1E232B;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    
+    }
+    
+    .form-container {
+        height: auto;
+        width: 80%;
+        background-color: white;
+        border-top: 10px solid #ECBE13;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        
+    }
+    
+    
+    .form-container h2 {
+        font-weight: 400;
+        color: #1E232B;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+        text-align: center;
+    
+    
+    }
+    
+    #hero-form {
+        display: inline-block;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        align-content: space-around;
+        flex-direction: column;
+        font-size: .8em;
+        color: black;
+        height: 80%;
+        width: 80%;
+        
+    }
+    
+    #hero-form label {
+        display: inline-block;
+        width: 100%;
+        
+    
+    }
+    
+    #hero-Form input {
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        height: 20%;
+      
+        
+    }
+    
+    .inputLabel {
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 50px;
+        margin-top: 0px;
+        cursor: pointer;
+        width: 80%;
+        display: inline-block;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    textarea {
+        resize: none;
+        height: 20%;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    
+    #submitFormButton {
+        height: 50px;
+        width: 150px;
+        padding: 5px 5px 5px 5px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #1E232B;
+        background: linear-gradient(135deg, #f4c92d 0%, #ECBE13 100%);
+        border-radius: 5px;
+        border: 0px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-bottom: 50px;
+        font-family: 'Poppins', sans-serif;
+        
+        
+    }
+    
+    #make-them-pay {
+        height: 70vh;
+        width: 100%;
+        background-image: url(assets/stylo-bg-re-color.jpg);
+        background-size: cover;
+        background-position: 10% 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    
+    #hurt-you {
+        height: 70vh;
+        width: 100%;
+        background-image: url(assets/protect_bg.png);
+        background-size: cover;
+        background-position: 10% 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 1.5em;
+        line-height: 0px;
+        text-align: center;
+    }
+    
+    #we-are-going{
+        font-size: 4em;
+        line-height: 1em;
+        text-align: center;
+    }
+    
+    #pay-you{
+        font-size: 4em;
+        line-height: 0px;
+    }
+    
+    #About {
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        background-color: #161c27;
+    
+    }
+    
+    .lady-pics {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        
+    
+    }
+    
+    .left-column-about {
+        height:100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        align-content: space-between;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+        margin: 0 auto;
+    }
+    
+    #align-main-about {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+        line-height: 1.8em;
+    }
+    
+    #about-right{
+        width: 30%;
+        height: 100%;
+        display: flex;
+    }
+    
+    #practice-areas {
+        height: 20vh;
+        width: 100%;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #161C27;
+        align-content: space-between;
+        gap: 0px;
+        margin: 0px;
+        line-height: 0px;
+        font-size: 1.5em;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #practice-cards {
+        height: 60vh;
+        width: 100%;
+        background-color: #161C27;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+        
+    
+    }
+    
+    .row {
+        height: 50%;
+        width: 100%;
+        display: flex;
+    }
+    
+    .align {
+        width: 100%;
+        height: 100%;
+      
+    }
+    
+    .practice-card {
+        height: 100%;
+        width: 20%;
+        filter: grayscale(100%);
+        position: relative;
+    }
+    
+    .overlay {
+        position: absolute;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+    }
+    
+    #divorce {
+        background-image: url(assets/divorce.png);
+        background-size: cover;
+        background-position: 80%;
+        
+    }
+    
+    #alimony {
+        background-image: url(assets/alimony-support.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    #child {
+        background-image: url(assets/child-custody.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    #childsupport {
+        background-image: url(assets/child-support.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    #custody-orders {
+        background-image: url(assets/modification-of-custody.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    
+    #child-visitation {
+        background-image: url(assets/child-visitation.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #seperate-property {
+        background-image: url(assets/seperate-property-valuation.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #business-valuation {
+        background-image: url(assets/business\ valuations.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #nuptial {
+        background-image: url(assets/nuptual-agreements.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #paternity {
+        background-image: url(assets/paternity.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    
+    
+    }
+    
+    .label {
+        position: absolute;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+        top: 70%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+        font-weight: 400;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        z-index: 11;
+    
+    }
+    
+    #reviews {
+     
+        background-color: #151b27;
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        padding-bottom: 100px;
+        padding-top: 15px;
+    
+    }
+    
+    #reviews-left {
+        display: flex;
+        height: 100%;
+        width: 40%;
+      
+    }
+    
+    #reviews-right {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+        margin: 0 auto;
+        align-items: end;
+        justify-content: center;
+        width: 60%;
+        height: 80%;
+        gap: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #reviews-right h2 {
+      font-size: 1.8em;
+    }
+    
+    #review-1 {
+        width: 100%;
+        padding: 25px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+    }
+    
+    #slider-arrows {
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        flex-direction: row;
+        height:auto;
+        width: 100%;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    #meet-our-team {
+        height: 60vh;
+        width: 100%;
+        background-color: #151b27;
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+        font-size: 1.5em;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 250px;
+    }
+    
+    .align-meet {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    
+    #meet-our-team-row{
+        display: flex;
+        gap: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .people-card {
+        height: auto;
+        width: 30%;
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        font-weight: 100;
+        position: relative;
+    
+    }
+    #KBrown {
+        width: 35%;
+    }
+    
+    .people-card img {
+        height: 100%;
+        width: 100%;
+    
+    }
+    
+    .attorney-name {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 90%;
+        height: 100px;
+        font-weight: 100;
+    }
+    
+    .attorney-actual-name {
+        width: 80%;
+        background-color: #1E232B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        line-height: 0px;
+        margin: 0px;
+        
+        
+    }
+
+    .attorney-actual-name h2 {
+        font-size: 1em;
+        font-weight: 300;
+
+        
+        
+    }
+    
+    #footer {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        position: relative;
+        
+    
+    }
+    
+    #footer img {
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        position: absolute;
+    }
+    
+    #footer-upper {
+        height:50%;
+        width: 100%;
+        display: flex;
+        z-index: 11;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        letter-spacing: 15px;
+        line-height: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+        background-color: rgba(0, 0, 0, 0.3);
+        
+       
+    }
+    
+    #footer-upper p {
+        letter-spacing: 7px;
+        
+       
+    }
+    
+    
+    #footer-spacer {
+        height: 80%;
+        width: 4px;
+        background-color:#ECBE13
+    }
+    
+    #footer-lower {
+        height:50%;
+        width: 100%;
+        display: flex;
+        z-index: 11;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        letter-spacing: 15px;
+        background-color: rgba(0, 0, 0, 0.3);
+      
+    
+    }
+    
+    #footer-contact {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    #footer-form-form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 80%;
+        gap: 10px;
+        align-items: start;
+        justify-content: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        line-height: 0px;
+        margin: 0px;
+    
+    }
+    #footer-form-form label {
+        display: none;
+    
+    }
+    
+    .footer-form-input {
+        width: 45%;
+        height: 20%;
+        background-color: rgba(0, 0, 0, 0);
+        border-bottom: 1px solid white;
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+        border-top: 0px solid white;
+        display: flex;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    #footer-form-form ::-webkit-input-placeholder {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    textarea {
+        resize: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        width: 100%;
+    
+    }
+    
+    .footer-form-input-long {
+        width: 90%;
+        height: 20%;
+        background-color: rgba(0, 0, 0, 0);
+        border-bottom: 1px solid white;
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+        border-top: 0px solid white;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+    
+    }
+    
+    #footer-submit {
+        width: 200px;
+        height: 50px;
+        display: block;
+        background: linear-gradient(135deg, #f4c92d 0%, #ECBE13 100%);
+        border-radius: 5px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+        
+    }
+    
+    #submit-collect{
+        width: 90%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    #nav {
+        height: 10vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        border-color: 1px solid black;
+        display: flex;
+        align-content: space-between;
+        position: fixed;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    #call-text {
+        height: 100%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        letter-spacing: 4px;
+        font-weight: 400;
+        font-size: 1.5em;
+        padding-right: 30px;
+    
+    }
+    
+    #logo{
+        height: 100%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 30px;
+    }
+    #main-hero {
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        background-image: url(assets/smallest-possible-bg.jpg);
+        background-size: cover;
+        padding-top: 10vh;
+    }
+    
+    .left-column {
+        height:100%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 0px;
+        align-content: space-between;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+    }
+    
+    .right-column {
+        height:100%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        align-content: space-between;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        
+        
+    
+    }
+    
+    .yellow {
+        color: #ECBE13;
+    }
+    
+    #align-main {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 25px 25px 25px 25px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .button-collector {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        gap: 25px;
+    }
+    
+    .contactUs-Button {
+        background-color: #ECBE13;
+        color: #1E232B;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    
+    }
+    
+    
+    .phone-cta {
+        background-color: #ECBE13;
+        color: #1E232B;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+    
+    }
+    
+    .form-container {
+        height: 80%;
+        width: 80%;
+        background-color: white;
+        border-top: 10px solid #ECBE13;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        color: #1E232B;
+        
+    }
+    
+    
+    .form-container h2 {
+        font-weight: 400;
+        color: #1E232B;
+        font-family: 'Poppins', sans-serif;
+        font-size: 3em;
+        text-align: center;
+    
+    
+    }
+    
+    #hero-form {
+        display: inline-block;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        align-content: space-around;
+        flex-direction: column;
+        font-size: .8em;
+        color: black;
+        height: 80%;
+        width: 80%;
+        
+    }
+    
+    #hero-form label {
+        display: inline-block;
+        width: 100%;
+        
+    
+    }
+    
+    #hero-Form input {
+        display: inline-block;
+        width: 80%;
+        text-align: left;
+        height: 20%;
+      
+        
+    }
+    
+    .inputLabel {
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 50px;
+        margin-top: 0px;
+        cursor: pointer;
+        width: 80%;
+        display: inline-block;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    textarea {
+        resize: none;
+        height: 20%;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    
+    #submitFormButton {
+        height: 50px;
+        width: 150px;
+        padding: 5px 5px 5px 5px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #1E232B;
+        background: linear-gradient(135deg, #f4c92d 0%, #ECBE13 100%);
+        border-radius: 5px;
+        border: 0px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-bottom: 50px;
+        font-family: 'Poppins', sans-serif;
+        
+        
+    }
+    
+    #make-them-pay {
+        height: 70vh;
+        width: 100%;
+        background-image: url(assets/stylo-bg-re-color.jpg);
+        background-size: cover;
+        background-position: 10% 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    
+    #hurt-you {
+        height: 70vh;
+        width: 100%;
+        background-image: url(assets/protect_bg.png);
+        background-size: cover;
+        background-position: 10% 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 2em;
+        line-height: 0px;
+        text-align: center;
+    }
+    
+    #we-are-going{
+        font-size: 4em;
+        line-height: 1em;
+        text-align: center;
+    }
+    
+    #pay-you{
+        font-size: 4em;
+        line-height: 0px;
+    }
+    
+    #About {
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        background-color: #161c27;
+    
+    }
+    
+    .lady-pics {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        
+        
+    
+    }
+
+    .lady-pics img {
+        height: 100%;
+        width: 100%;
+        
+        
+    
+    }
+    
+    .left-column-about {
+        height:100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.7em;
+    
+    
+    }
+    
+    #align-main-about {
+        width: 70%;
+        height: 80%;
+        line-height: 1.8em;
+       
+    }
+    
+    #about-right{
+        width: 30%;
+        height: 100%;
+        display: flex;
+    }
+    
+    #practice-areas {
+        height: 20vh;
+        width: 100%;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #161C27;
+        align-content: space-between;
+        gap: 0px;
+        margin: 0px;
+        line-height: 0px;
+        font-size: 1.5em;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #practice-cards {
+        height: 60vh;
+        width: 100%;
+        background-color: #161C27;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+    
+    .row {
+        height: 50%;
+        width: 100%;
+        display: flex;
+    }
+    
+    .align {
+        width: 100%;
+        height: 100%;
+      
+    }
+    
+    .practice-card {
+        height: 100%;
+        width: 20%;
+        filter: grayscale(100%);
+        position: relative;
+    }
+    
+    .overlay {
+        position: absolute;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+    }
+    
+    #divorce {
+        background-image: url(assets/divorce.png);
+        background-size: cover;
+        background-position: 80%;
+        
+    }
+    
+    #alimony {
+        background-image: url(assets/alimony-support.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    #child {
+        background-image: url(assets/child-custody.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    #childsupport {
+        background-image: url(assets/child-support.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    #custody-orders {
+        background-image: url(assets/modification-of-custody.png);
+        background-size: cover;
+        background-position: 80%;
+    
+    }
+    
+    
+    #child-visitation {
+        background-image: url(assets/child-visitation.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #seperate-property {
+        background-image: url(assets/seperate-property-valuation.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #business-valuation {
+        background-image: url(assets/business\ valuations.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #nuptial {
+        background-image: url(assets/nuptual-agreements.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    }
+    
+    #paternity {
+        background-image: url(assets/paternity.png);
+        background-size: cover;
+        background-position: 60%;
+    
+    
+    
+    }
+    
+    .label {
+        position: absolute;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+        top: 70%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+        font-weight: 400;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        z-index: 11;
+    
+    }
+    
+    #reviews {
+     
+        background-color: #151b27;
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        padding-bottom: 100px;
+        padding-top: 50px;
+    
+    }
+    
+    #reviews-left {
+        display: flex;
+        height: 100%;
+        width: 40%;
+      
+    }
+    
+    #reviews-right {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.7em;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        height: 100%;
+        gap: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #review-1 {
+        width: 100%;
+        padding: 25px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+    }
+    
+    #slider-arrows {
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        flex-direction: row;
+        height:auto;
+        width: 100%;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    #meet-our-team {
+        height: auto;
+        width: 100%;
+        background-color: #151b27;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 150px;
+        
+    }
+    
+    .align-meet {
+        height: 100%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    
+    }
+    
+    #meet-our-team-row{
+        display: flex;
+        gap: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .people-card {
+        height: auto;
+        width: 30%;
+        background-color: white;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        font-weight: 100;
+        position: relative;
+    
+    }
+    
+    .people-card img {
+        height: 100%;
+        width: 100%;
+    
+    }
+    
+    .attorney-name {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 90%;
+        height: 100px;
+        font-weight: 100;
+    }
+    
+    .attorney-actual-name {
+        width: 80%;
+        background-color: #1E232B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        line-height: 0px;
+        margin: 0px;
+        
+        
+    }
+    
+    #footer {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        position: relative;
+        
+    
+    }
+    
+    #footer img {
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        position: absolute;
+    }
+    
+    #footer-upper {
+        height:50%;
+        width: 100%;
+        display: flex;
+        z-index: 11;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        letter-spacing: 15px;
+        line-height: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+        background-color: rgba(0, 0, 0, 0.3);
+        
+       
+    }
+    
+    #footer-upper p {
+        letter-spacing: 7px;
+        
+       
+    }
+    
+    
+    #footer-spacer {
+        height: 80%;
+        width: 4px;
+        background-color:#ECBE13
+    }
+    
+    #footer-lower {
+        height:50%;
+        width: 100%;
+        display: flex;
+        z-index: 11;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        letter-spacing: 15px;
+        background-color: rgba(0, 0, 0, 0.3);
+      
+    
+    }
+    
+    #footer-contact {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    #footer-form-form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 80%;
+        gap: 10px;
+        align-items: start;
+        justify-content: center;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        line-height: 0px;
+        margin: 0px;
+    
+    }
+    #footer-form-form label {
+        display: none;
+    
+    }
+    
+    .footer-form-input {
+        width: 45%;
+        height: 20%;
+        background-color: rgba(0, 0, 0, 0);
+        border-bottom: 1px solid white;
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+        border-top: 0px solid white;
+        display: flex;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+
+
+    
+    
+    #footer-form-form ::-webkit-input-placeholder {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    textarea {
+        resize: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        width: 100%;
+    
+    }
+    
+    .footer-form-input-long {
+        width: 90%;
+        height: 20%;
+        background-color: rgba(0, 0, 0, 0);
+        border-bottom: 1px solid white;
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+        border-top: 0px solid white;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+    
+    }
+    
+    #footer-submit {
+        width: 200px;
+        height: 50px;
+        display: block;
+        background: linear-gradient(135deg, #f4c92d 0%, #ECBE13 100%);
+        border-radius: 5px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+        
+    }
+    
+    #submit-collect{
+        width: 90%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+    
+
+
+}
+ 
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+
+
+
+
+
+
+
+
